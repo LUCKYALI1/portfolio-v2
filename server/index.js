@@ -25,7 +25,7 @@ connectDB();
 // Middleware
 app.use(express.json(), express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "luckyaliprofolio.netlify.app",
+    origin: "https://luckyaliprofolio.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
