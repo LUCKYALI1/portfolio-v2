@@ -10,7 +10,7 @@ import Projects from './components/Projects/Projects';
 import SkillsAndAchievements from './components/Skills/SkillsAndAchievements';
 import Blogs from './components/Blogs/Blogs';
 import Footer from './components/Footer';
-import LeetCode from './components/LeetCode/LeetCode';
+import LeetCode from './components/Leetcode';
 import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 import CustomCursor from './components/CustomCursor';
 import { CursorProvider } from './context/CursorContext'; 
@@ -19,7 +19,7 @@ import AdminLogin from './components/Admin/AdminLogin';
 
 
 // Asset
-import bgMusic from './assets/Song For Denise (Maxi Version).mp3';
+// import bgMusic from './assets/Song For Denise (Maxi Version).mp3';
 import Dashboard from './components/Admin/Dashboard';
 
 // --- 1. SHARED LAYOUT (Navbar & Footer persist) ---
@@ -49,26 +49,10 @@ const Home = () => {
 };
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  const audioRef = useRef(null);
+  // const [loading, setLoading] = useState(true);
+
   const location = useLocation();
 
-  useEffect(() => {
-    audioRef.current = new Audio(bgMusic);
-    audioRef.current.loop = true;
-    audioRef.current.volume = 0.5;
-  }, []);
-
-  const handleStartMusic = () => {
-    if (audioRef.current) {
-        audioRef.current.currentTime = 13; 
-        audioRef.current.play().catch(e => console.log("Audio play failed:", e));
-    }
-  };
-
-  const handleLoadingComplete = () => {
-    setLoading(false);
-  };
 
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -90,7 +90,6 @@ const Landingpage = () => {
             {/* --- CENTRAL DYNAMIC SPECIMEN FRAME --- */}
             <motion.div 
                 style={{ 
-                    y: yHeaderDeck, 
                     opacity: canvasOpacity,
                     x: xTextMove,
                     y: yTextMove 
