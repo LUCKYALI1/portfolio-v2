@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.signature-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 150px;
+  font-weight: 300; /* Light */
+  line-height: 1;   /* Fixes spacing issues */
+  color: rgb(0, 0, 0);
+}

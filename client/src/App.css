@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: pri-font;
+    src: url('../public/fonts/primaryFont.ttf');
+}
+@font-face {
+    font-family: sec-font;
+    src: url('../public/fonts/secFont.ttf');
+}
+
+h1 , h2 , h3 , h4 , span , i{
+    font-family: pri-font;
+}
+p , a{
+    font-family: sec-font;
+}
