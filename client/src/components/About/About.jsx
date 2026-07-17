@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useCursor } from "../../context/CursorContext"; 
+import { useCursor } from "../../Context/CursorContext"; 
 import "./About.css"; // Import the CSS file for styling
 // --- TEXT REVEAL RISE ANIMATION PARAMETERS (GPU HARDWARE ACCELERATED) ---
 const AwwwardsReveal = {

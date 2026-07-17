@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState, memo } from 'react';
 import { motion, useScroll, useTransform, useVelocity, useSpring } from 'framer-motion';
-import { useCursor } from '../../context/CursorContext'; 
+import { useCursor } from '../../Context/CursorContext'; 
 import { ArrowUpRight } from 'lucide-react';
 import api from '../../apis/api';
 

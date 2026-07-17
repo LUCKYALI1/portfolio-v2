@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, memo } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useCursor } from '../../context/CursorContext';
+import { useCursor } from '../../Context/CursorContext';
 import { ArrowUpRight, Clock, ChevronLeft, ChevronRight } from 'lucide-react';
 import api from '../../apis/api';
 import BlogModal from '../BlogModal';

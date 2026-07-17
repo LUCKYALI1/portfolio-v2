@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
 import Btn from '../Btn';
-import { useCursor } from '../../context/CursorContext'; 
+import { useCursor } from '../../Context/CursorContext'; 
 
 // --- ADVANCED ADVANCED ACCELERATED REVEAL ENGINE ---
 const macroContainer = {

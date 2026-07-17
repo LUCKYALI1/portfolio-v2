@@ -3,15 +3,15 @@ import { AnimatePresence } from 'framer-motion';
 import { useLocation, Routes, Route, Outlet } from 'react-router-dom'; 
 
 // Components
-import Navbar from './components/Navbar/Navbar';
-import Landingpage from './components/LandingPage/Landingpage';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import SkillsAndAchievements from './components/Skills/SkillsAndAchievements';
-import Blogs from './components/Blogs/Blogs';
+import Navbar from './components/navbar/Navbar';
+import Landingpage from './components/landingPage/Landingpage';
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import SkillsAndAchievements from './components/skills/SkillsAndAchievements';
+import Blogs from './components/blogs/Blogs';
 import Footer from './components/Footer';
 import LeetCode from './components/Leetcode';
-import LoadingScreen from './components/LoadingScreen/LoadingScreen';
+import LoadingScreen from './components/loadingScreen/LoadingScreen';
 import CustomCursor from './components/CustomCursor';
 import { CursorProvider } from './context/CursorContext'; 
 import AdminLogin from './components/Admin/AdminLogin';

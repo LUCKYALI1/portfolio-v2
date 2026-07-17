@@ -1,6 +1,6 @@
 import React, { useRef, memo } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useCursor } from '../../context/CursorContext';
+import { useCursor } from '../../Context/CursorContext';
 import { ArrowUpRight } from 'lucide-react';
 
 // --- DATA MATRIX ---

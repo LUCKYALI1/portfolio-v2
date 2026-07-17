@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link, useNavigate } from 'react-router-dom';
 import Btn from '../Btn';
-import { useCursor } from '../../context/CursorContext'; 
+import { useCursor } from '../../Context/CursorContext'; 
 
 const menuLinks = [
     { title: "HOME", href: "/" },

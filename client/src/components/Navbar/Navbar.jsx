@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import Btn from "../Btn"; 
-import Menu from "../Menu/Menu"; 
-import { useCursor } from "../../context/CursorContext"; 
+import Menu from "../menu/Menu"; 
+import { useCursor } from "../../Context/CursorContext"; 
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
