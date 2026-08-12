@@ -24,11 +24,13 @@ connectDB();
 
 // Middleware
 app.use(express.json(), express.urlencoded({ extended: true }));
-app.use(cors({
-    origin: "https://luckyaliprofolio.netlify.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
-}));
+app.use(
+  cors({
+    origin: 
+      "https://luckyaliprofolio.netlify.app",
+    credentials: true,
+  })
+);
 // Routes
 app.get('/projects', async (req, res) => {
     try {
